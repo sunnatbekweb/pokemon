@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="./input.css">
+    <!-- Title -->
+    <title>Document</title>
+</head>
+
+<body class="bg-[#FFD845]">
+    <header class="pt-[50px]">
+        <div class="container mx-auto px-5">
+            <nav class="">
+                <i class="bi bi-suit-heart text-4xl text-black text-end flex justify-end"></i>
+
+                <img src="./assets/images/pokemon_logo.svg" class="mx-auto" alt="Logo">
+
+                <div class="flex gap-[35px]">
+                    <select name="filter" id="filter" class="px-[82px] py-4 rounded-[15px] border-2 border-black cursor-pointer">
+                        <option value="gross" selected disabled>Gross</option>
+                    </select>
+
+                    <div class="w-[300px] px-[30px] bg-white flex items-center justify-between border-2 border-black rounded-[15px]">
+                        <input type="search" placeholder="Search" class="focus:outline-none placeholder:text-black w-full">
+                        <i class="bi bi-search w-6"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
