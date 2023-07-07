@@ -27,3 +27,14 @@ const render = (arr) => {
 }
 
 render(pokemons)
+
+// ----------------------- Search ------------------------
+
+const search = document.querySelector(".search")
+
+search.addEventListener("input", (e) => {
+    let result = pokemons.filter((v) => v.name.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()));
+    render(result)
+})
+
+// ----------------------- Search end -------------------------
